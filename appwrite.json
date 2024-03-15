@@ -1,0 +1,24 @@
+{
+    "projectId": "65e08e67486e408d3a83",
+    "projectName": "thraed",
+    "functions": [
+        {
+            "$id": "65e6b4bd0baa96e174fc",
+            "name": "get_user",
+            "runtime": "node-16.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/get_user"
+        }
+    ]
+}
